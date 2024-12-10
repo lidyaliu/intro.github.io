@@ -55,7 +55,6 @@ h2 {
 }
 
 ul {
-  max-width: 550px;
   margin: 0 auto 50px auto;
   line-height: 1.6;
   text-align: justify;
@@ -63,7 +62,6 @@ ul {
 }
 
 blockquote {
-  max-width: 550px;
   margin: 0 auto 50px auto;
   text-align: justify;
 }
