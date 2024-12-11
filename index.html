@@ -1,44 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="./styles.css">
-    <title>Personal Statement</title>
-  </head>
-
-  <body>
-    <main id="main">
-      <h1 id="title">Personal Statement</h1>
-      <section id="tribute-info">
-        <h3>Allow me to introduce myself, <p>
-from a young age, I found myself drawn to solving problems and discovering the underlying principles of this world. Through high school, I earned numerous gold medals in physics olympiads. However, when choosing a field of study for college, I realized that my interests were varied and wide-ranging. Alongside Physics, I had a deep appreciation for mathematics, coding, and astronomy. I then opted for Civil Engineering with a minor in Engineering Science, feeling that engineering offered broad platform through which I could engage with all of these fields.
-        </p></h3>
-        <h3 id="headline">
-          Throughout my college, <p>
-          I enrolled in an array of subjects, accumulating about 180 credits, surpassing the 138 required. This decision was driven by my desire to explore my passion. In the course of these experiences, as I delved deeper into topics such as 2D materials, quantum mechanics, and modern physics, I began to feel a profound connection to these subjects.
-Though enrolling in so many courses seems ambitious, I am not doing my best and thus not satisfied with my grade. I am rushing and have no plan with no focus. Thus, I then decided to take some time and extend my studies for one year. Although I could finish earlier, I am fully self-funded and I realized that it's not easy to balance finance, social, and studies at the same time. The other reason is that I am aware that the transition from my current background to the specialized field of Physics is significant, but I am committed to bridging that gap. By extending, I have more time on funding as well as the preparations to narrow the leap.
-        </p>
-        </h3>
-        <h3>
-          Deciding to pursue a master's degree, <p>
-          I applied for graduate programs in physics as my first choice, with electrical engineering, materials science, and engineering science as backup options. Next semester, I plan to take courses required for the Master's program, like electrodynamics, quantum mechanics.
-        </p>
-        </h3>
-          <p>
-              I also intended to participate in your Research Lab if possible. As to narrow this gap, I am open to your recommendations and guidance. If you have any suggestions regarding courses to take, I would greatly appreciate it. I also provided a list of courses I have taken for your consideration.
-          </p>
-      </section>
-    </main>
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-      <script src="./script.js"></script>
-      <script src="https://kit.fontawesome.com/fb2d751829.js" crossorigin="anonymous"></script>
-  </body>
+<html>
+<head>
+ <meta charset="utf-8"/>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>Personal Statement</title>
+</head>
+ <style>
+  .pdf {
+        background: #14213d;
+        width: 22.5cm;
+        aspect-ratio: 4 / 3;
+        height: 29.7cm;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0.5cm;
+        box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+        align: center;
+    }
+  body {
+        background: #14213d; 
+  }
+  page {
+        background: rgb(243,238,226);
+        display: block;
+        margin: 1cm auto;
+        margin-bottom: 0.5cm;
+        box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+        padding: 2cm;
+  }
+  page[size="A4"] {  
+        width: 21cm;
+        height: 29.7cm;
+        background: rgb(243,238,226);
+  }
+  p{
+   text-align: justify;
+  }
+  h1{
+   text-align:center;
+  }
+ </style>
+<body>
+ <page size="A4">
+  <h1>Personal Statement</h1>
+  <svg height="6" width="30cm" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="10" x2="21cm" y2="10" style="stroke:black;stroke-width:12" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+  <p>I have written this as briefly and concisely as possible. I hope that Professor could spare some time to review it.</p>
+  <p><strong>Allow me to introduce myself, </strong>from a young age, I found myself drawn to solving problems and discovering the underlying principles of this world. Through high school, I earned numerous gold medals in physics olympiads. However, when choosing a field of study for college, I realized that my interests were varied and wide-ranging. Alongside Physics, I had a deep appreciation for mathematics, coding, and astronomy. I then opted for Civil Engineering with a minor in Engineering Science, feeling that engineering offered a broad platform through which I could engage with all of these fields.
+</p>
+  <p><strong>Throughout my college, </strong>I enrolled in an array of subjects, accumulating about 180 credits, surpassing the 138 required. This decision was driven by my desire to explore my passion. In the course of these experiences, as I delved deeper into topics such as 2D materials, quantum mechanics, and modern physics, I began to feel a profound connection to these subjects. </p>
+  <p>Though enrolling in so many courses seems ambitious, I am not doing my best and thus not satisfied with my grade. I am rushing and have no plan with no focus. Thus, I then decided to take some time and extend my studies for one year. Although I could finish earlier, I am fully self-funded and I realized that it's not easy to balance finance, social, and studies at the same time. The other reason is that I am aware that the transition from my current background to the specialized field of Physics is significant, but I am committed to bridging that gap. By extending, I have more time on funding as well as the preparations to narrow the leap.
+</p>
+  <p><strong>Deciding to pursue a Master's degree, </strong>I applied for graduate programs in physics as my first choice, with electrical engineering, materials science, and engineering science as backup options. As to narrow this gap, I am open to your recommendations and guidance. If you have any suggestions regarding courses to take, I would greatly appreciate it. For now, my plan for next semester is taking Courses required, such as Electrodynamics, Quantum Mechanics, Solid-State Physics(2), etc. I also intended to participate in your Research Lab if possible. And if you approve, I would be honored to do a thesis under your guidance.
+</p>
+  <p>I also provided a list of courses I have taken for your consideration.</p>
+  <svg height="6" width="30cm" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="10" x2="21cm" y2="10" style="stroke:black;stroke-width:12" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+  <ul>
+   <p>In short, I have completed relevant courses as below: </p>
+   <li>Quantum Physics from Department of Electrical Engineering </li>
+   <li>Numerical Method from Department of Engineering Science </li>
+   <li>Mathematical Methods of Classical Mechanics from Department of Math </li>
+   <li>Electric Circuit, Electronics from Department of Engineering Science </li>
+   <li>Introduction to Electromagnetics from Department of Mechanical Engineering </li>
+   <li>Modern Physics from Department of Engineering Science </li>
+   <li>Numerous of Mechanics Courses, General Physics and Chemistry, along with their Lab, as well as Engineering Math (1)-(4) and Applied Probability from my original department </li>
+  </ul>
+  <p><a href="./E64095338_中文成績單(附有學士學期排名及學期GPA).pdf">歷年成績單</a></p>
+ </page>
+ <br/>
+<!--<object class="pdf" data=./E64095338_中文成績單(附有學士學期排名及學期GPA).pdf width="850" height="35"> 	
+ <embed class="pdf" src="./E64095338_中文成績單(附有學士學期排名及學期GPA).pdf" width="800" height="500"> 
+ <h1>Sorry, your browser doesn't support pdf, <a href="./E64095338_中文成績單(附有學士學期排名及學期GPA).pdf">Download</a> instead</h1> 
+</embed>
+</object>-->
+</body>
 </html>
