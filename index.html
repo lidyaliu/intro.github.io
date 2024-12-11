@@ -74,6 +74,17 @@
   margin-left: 50px;
 }
 
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -88,7 +99,9 @@
   <a href="./E64095338_中文成績單(附有學士學期排名及學期GPA).pdf">歷年成績單</a>
 </div>
 
- <span style="font-size:30px;cursor:pointer;color:white;position:fixed;top:5;x:10;" onclick="openNav()">&#9776; Menu</span>
+ <div id="main">
+  <span style="font-size:30px;cursor:pointer;position:fixed;color:white;top:6;" onclick="openNav()">&#9776; Menu</span>
+</div>
  
  <page id="eng" size="A4">
   <h1>Personal Statement</h1>
@@ -129,13 +142,15 @@
  <h1>Sorry, your browser doesn't support pdf, <a href="./E64095338_中文成績單(附有學士學期排名及學期GPA).pdf">Download</a> instead</h1> 
 </embed>
 </object>-->
- <script>
+<script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
 }
 </script>
 </body>
